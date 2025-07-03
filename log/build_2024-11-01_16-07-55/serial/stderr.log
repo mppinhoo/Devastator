@@ -1,0 +1,2 @@
+gmake[1]: *** [CMakeFiles/Makefile2:231: tests/CMakeFiles/serial-test.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

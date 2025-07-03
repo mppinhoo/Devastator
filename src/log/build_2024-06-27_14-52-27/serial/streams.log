@@ -1,0 +1,81 @@
+[0.054s] Invoking command in '/home/mpinho/proj_ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/mpinho/proj_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mpinho/proj_ws/src/install/serial
+[0.815s] -- The C compiler identification is GNU 11.4.0
+[0.815s] -- The CXX compiler identification is GNU 11.4.0
+[0.816s] -- Detecting C compiler ABI info
+[0.816s] -- Detecting C compiler ABI info - done
+[0.816s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.816s] -- Detecting C compile features
+[0.816s] -- Detecting C compile features - done
+[0.817s] -- Detecting CXX compiler ABI info
+[0.817s] -- Detecting CXX compiler ABI info - done
+[0.838s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.838s] -- Detecting CXX compile features
+[0.840s] -- Detecting CXX compile features - done
+[0.848s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.203s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.361s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.476s] -- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.504s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[1.512s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.520s] -- Looking for pthread.h
+[1.703s] -- Looking for pthread.h - found
+[1.703s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.896s] -- Found Threads: TRUE  
+[2.074s] -- Configuring done
+[2.103s] -- Generating done
+[2.107s] -- Build files have been written to: /home/mpinho/proj_ws/src/build/serial
+[2.118s] Invoked command in '/home/mpinho/proj_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/mpinho/proj_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mpinho/proj_ws/src/install/serial
+[2.122s] Invoking command in '/home/mpinho/proj_ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/serial -- -j8 -l8
+[2.230s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.230s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[2.231s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[2.232s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.233s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[3.527s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[3.626s] [ 42%] Built target serial
+[3.673s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[4.407s] [ 57%] [32m[1mLinking CXX executable serial_example[0m
+[4.598s] [ 64%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.674s] [ 64%] Built target gtest_main
+[4.710s] [ 64%] Built target serial_example
+[9.025s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.121s] [ 71%] Built target gtest
+[9.151s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[9.151s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[10.315s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[10.315s]                  from [01m[K/home/mpinho/proj_ws/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[10.315s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[10.315s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[10.315s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[10.405s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[10.606s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[10.708s] [100%] Built target serial-test-timer
+[10.950s] [100%] Built target serial-test
+[10.967s] Invoked command in '/home/mpinho/proj_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/serial -- -j8 -l8
+[11.035s] Invoking command in '/home/mpinho/proj_ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/serial
+[11.044s] -- Install configuration: ""
+[11.045s] -- Execute custom install script
+[11.045s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/lib/libserial.a
+[11.059s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/include/serial/serial.h
+[11.072s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/include/serial/v8stdint.h
+[11.085s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/library_path.sh
+[11.099s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/library_path.dsv
+[11.113s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[11.130s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[11.145s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/ament_prefix_path.sh
+[11.160s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/ament_prefix_path.dsv
+[11.175s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/path.sh
+[11.189s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/path.dsv
+[11.202s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/local_setup.bash
+[11.218s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/local_setup.sh
+[11.232s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/local_setup.zsh
+[11.246s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/local_setup.dsv
+[11.260s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/package.dsv
+[11.274s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/ament_index/resource_index/packages/serial
+[11.286s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.300s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[11.313s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/cmake/serialConfig.cmake
+[11.329s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/cmake/serialConfig-version.cmake
+[11.344s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/package.xml
+[11.364s] Invoked command in '/home/mpinho/proj_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/serial

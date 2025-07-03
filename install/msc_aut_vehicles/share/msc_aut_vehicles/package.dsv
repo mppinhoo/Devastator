@@ -1,0 +1,8 @@
+source;share/msc_aut_vehicles/hook/cmake_prefix_path.ps1
+source;share/msc_aut_vehicles/hook/cmake_prefix_path.dsv
+source;share/msc_aut_vehicles/hook/cmake_prefix_path.sh
+source;share/msc_aut_vehicles/local_setup.bash
+source;share/msc_aut_vehicles/local_setup.dsv
+source;share/msc_aut_vehicles/local_setup.ps1
+source;share/msc_aut_vehicles/local_setup.sh
+source;share/msc_aut_vehicles/local_setup.zsh

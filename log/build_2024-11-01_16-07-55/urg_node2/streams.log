@@ -1,0 +1,9 @@
+[0.030s] Invoking command in '/home/mpinho/proj_ws/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/build/urg_node2 -- -j8 -l8
+[0.105s] [ 45%] Built target urg_c
+[0.151s] [ 55%] Built target gtest
+[0.203s] [ 65%] Built target urg_node2
+[0.253s] [ 75%] Built target gtest_main
+[0.268s] gmake[2]: *** [CMakeFiles/urg_node2_node.dir/build.make:173: CMakeFiles/urg_node2_node.dir/depend] Interrupt
+[0.268s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/urg_node2_node.dir/all] Interrupt
+[0.268s] gmake: *** [Makefile:146: all] Interrupt
+[0.272s] Invoked command in '/home/mpinho/proj_ws/build/urg_node2' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/build/urg_node2 -- -j8 -l8

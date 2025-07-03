@@ -1,0 +1,37 @@
+[0.043s] Invoking command in '/home/mpinho/proj_ws/src/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/urg_node2 -- -j8 -l8
+[0.237s] [ 10%] Built target gtest
+[0.239s] [ 55%] Built target urg_c
+[0.266s] [ 65%] Built target urg_node2_node
+[0.266s] [ 75%] Built target gtest_main
+[0.352s] [ 85%] Built target urg_node2
+[0.377s] [100%] Built target urg_node2_test
+[0.405s] Invoked command in '/home/mpinho/proj_ws/src/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/urg_node2 -- -j8 -l8
+[0.579s] Invoking command in '/home/mpinho/proj_ws/src/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/urg_node2
+[0.593s] -- Install configuration: ""
+[0.594s] -- Execute custom install script
+[0.596s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/lib/urg_node2/urg_node2_node
+[0.596s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/lib/liburg_node2.so
+[0.596s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/lib/liburg_c.so
+[0.598s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/launch/urg_node2.launch.py
+[0.598s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/launch/urg_node2_2lidar.launch.py
+[0.599s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/launch/urg_node2_component.launch.py
+[0.599s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/config/params_ether.yaml
+[0.599s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/config/params_ether_2nd.yaml
+[0.599s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/config/params_serial.yaml
+[0.599s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/ament_index/resource_index/package_run_dependencies/urg_node2
+[0.600s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/ament_index/resource_index/parent_prefix_path/urg_node2
+[0.600s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/environment/ament_prefix_path.sh
+[0.600s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/environment/ament_prefix_path.dsv
+[0.600s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/environment/path.sh
+[0.601s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/environment/path.dsv
+[0.601s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/local_setup.bash
+[0.601s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/local_setup.sh
+[0.601s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/local_setup.zsh
+[0.602s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/local_setup.dsv
+[0.602s] -- Symlinking: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/package.dsv
+[0.622s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/ament_index/resource_index/packages/urg_node2
+[0.624s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/ament_index/resource_index/rclcpp_components/urg_node2
+[0.624s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/cmake/urg_node2Config.cmake
+[0.624s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/cmake/urg_node2Config-version.cmake
+[0.624s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/urg_node2/share/urg_node2/package.xml
+[0.630s] Invoked command in '/home/mpinho/proj_ws/src/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/urg_node2

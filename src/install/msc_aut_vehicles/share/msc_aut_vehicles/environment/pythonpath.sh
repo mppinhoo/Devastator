@@ -1,0 +1,1 @@
+/home/mpinho/proj_ws/src/build/msc_aut_vehicles/ament_cmake_environment_hooks/pythonpath.sh

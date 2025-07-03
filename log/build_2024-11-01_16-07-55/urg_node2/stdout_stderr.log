@@ -1,0 +1,7 @@
+[ 45%] Built target urg_c
+[ 55%] Built target gtest
+[ 65%] Built target urg_node2
+[ 75%] Built target gtest_main
+gmake[2]: *** [CMakeFiles/urg_node2_node.dir/build.make:173: CMakeFiles/urg_node2_node.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/urg_node2_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

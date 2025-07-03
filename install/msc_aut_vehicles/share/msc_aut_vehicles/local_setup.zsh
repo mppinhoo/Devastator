@@ -1,0 +1,1 @@
+/home/mpinho/proj_ws/build/msc_aut_vehicles/ament_cmake_environment_hooks/local_setup.zsh

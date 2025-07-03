@@ -1,0 +1,8 @@
+[0.032s] Invoking command in '/home/mpinho/proj_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/build/serial -- -j8 -l8
+[0.104s] [ 28%] Built target serial
+[0.141s] [ 42%] Built target gtest_main
+[0.184s] [ 57%] Built target serial_example
+[0.235s] [ 71%] Built target gtest
+[0.285s] gmake[1]: *** [CMakeFiles/Makefile2:231: tests/CMakeFiles/serial-test.dir/all] Interrupt
+[0.285s] gmake: *** [Makefile:146: all] Interrupt
+[0.287s] Invoked command in '/home/mpinho/proj_ws/build/serial' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/build/serial -- -j8 -l8

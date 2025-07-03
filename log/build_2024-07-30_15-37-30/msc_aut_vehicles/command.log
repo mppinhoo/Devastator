@@ -1,0 +1,4 @@
+Invoking command in '/home/mpinho/proj_ws/build/msc_aut_vehicles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/build/msc_aut_vehicles -- -j8 -l8
+Invoked command in '/home/mpinho/proj_ws/build/msc_aut_vehicles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/build/msc_aut_vehicles -- -j8 -l8
+Invoking command in '/home/mpinho/proj_ws/build/msc_aut_vehicles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/build/msc_aut_vehicles
+Invoked command in '/home/mpinho/proj_ws/build/msc_aut_vehicles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/build/msc_aut_vehicles

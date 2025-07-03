@@ -1,0 +1,85 @@
+[0.791s] Invoking command in '/home/mpinho/proj_ws/src/build/msc_aut_vehicles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/mpinho/proj_ws/src/msc_aut_vehicles -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mpinho/proj_ws/src/install/msc_aut_vehicles
+[0.932s] -- The C compiler identification is GNU 11.4.0
+[1.072s] -- The CXX compiler identification is GNU 11.4.0
+[1.088s] -- Detecting C compiler ABI info
+[1.261s] -- Detecting C compiler ABI info - done
+[1.282s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.283s] -- Detecting C compile features
+[1.284s] -- Detecting C compile features - done
+[1.290s] -- Detecting CXX compiler ABI info
+[1.482s] -- Detecting CXX compiler ABI info - done
+[1.502s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.503s] -- Detecting CXX compile features
+[1.504s] -- Detecting CXX compile features - done
+[1.511s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.857s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.001s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.080s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[2.084s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.374s] -- Configuring done
+[2.380s] -- Generating done
+[2.383s] -- Build files have been written to: /home/mpinho/proj_ws/src/build/msc_aut_vehicles
+[2.411s] Invoked command in '/home/mpinho/proj_ws/src/build/msc_aut_vehicles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/mpinho/proj_ws/src/msc_aut_vehicles -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mpinho/proj_ws/src/install/msc_aut_vehicles
+[2.412s] Invoking command in '/home/mpinho/proj_ws/src/build/msc_aut_vehicles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/msc_aut_vehicles -- -j8 -l8
+[2.559s] Built target ament_cmake_python_symlink_msc_aut_vehicles
+[3.491s] running egg_info
+[3.492s] creating msc_aut_vehicles.egg-info
+[3.493s] writing msc_aut_vehicles.egg-info/PKG-INFO
+[3.493s] writing dependency_links to msc_aut_vehicles.egg-info/dependency_links.txt
+[3.494s] writing top-level names to msc_aut_vehicles.egg-info/top_level.txt
+[3.494s] writing manifest file 'msc_aut_vehicles.egg-info/SOURCES.txt'
+[3.501s] reading manifest file 'msc_aut_vehicles.egg-info/SOURCES.txt'
+[3.502s] writing manifest file 'msc_aut_vehicles.egg-info/SOURCES.txt'
+[3.580s] Built target ament_cmake_python_build_msc_aut_vehicles_egg
+[3.607s] Invoked command in '/home/mpinho/proj_ws/src/build/msc_aut_vehicles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/msc_aut_vehicles -- -j8 -l8
+[3.692s] Invoking command in '/home/mpinho/proj_ws/src/build/msc_aut_vehicles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/msc_aut_vehicles
+[3.711s] -- Install configuration: ""
+[3.712s] -- Execute custom install script
+[3.714s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/config/collision_monitor_params.yaml
+[3.734s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/config/cost_map.rviz
+[3.761s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/config/empty.yaml
+[3.786s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/config/gazebo_params.yaml
+[3.812s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/config/joystick.yaml
+[3.849s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/config/mapper_params_online_async.yaml
+[3.865s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/config/mapper_params_online_sync.yaml
+[3.888s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/config/my_controllers.yaml
+[3.911s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/config/nav2_params.yaml
+[3.939s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/config/odom.rviz
+[3.962s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/config/poligons.rviz
+[3.985s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/config/slam.rviz
+[4.009s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/config/twist_mux.yaml
+[4.046s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/config/view_rviz.rviz
+[4.067s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/description/camera.xacro
+[4.089s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/description/depth_camera.xacro
+[4.110s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/description/gazebo_control.xacro
+[4.130s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/description/inertial_macros.xacro
+[4.157s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/description/lidar.xacro
+[4.179s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/description/robot.urdf.xacro
+[4.200s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/description/robot_core.xacro
+[4.225s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/description/ros2_control.xacro
+[4.249s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/collision_monitor_node.launch.py
+[4.269s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/joystick.launch.py
+[4.292s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/launch_robot.launch.py
+[4.313s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/launch_sim.launch.py
+[4.338s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/localization_launch.py
+[4.357s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/navigation_launch.py
+[4.378s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/obstacle_avoidance.launch.py
+[4.397s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/online_async_launch.py
+[4.418s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/online_sync_launch.py
+[4.443s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/rplidar.launch.py
+[4.464s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/rsp.launch.py
+[4.486s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/worlds/empty.world
+[4.508s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/worlds/obstacles.world
+[4.528s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/worlds/small_house.world
+[4.553s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/worlds/world.model
+[4.574s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/environment/pythonpath.sh
+[4.595s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/environment/pythonpath.dsv
+[4.616s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/local/lib/python3.10/dist-packages/msc_aut_vehicles-0.0.0-py3.10.egg-info/PKG-INFO
+[4.637s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/local/lib/python3.10/dist-packages/msc_aut_vehicles-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.666s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/local/lib/python3.10/dist-packages/msc_aut_vehicles-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.686s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/local/lib/python3.10/dist-packages/msc_aut_vehicles-0.0.0-py3.10.egg-info/top_level.txt
+[4.707s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/local/lib/python3.10/dist-packages/msc_aut_vehicles/__init__.py
+[4.727s] -- Symlinking: /home/mpinho/proj_ws/src/install/msc_aut_vehicles/lib/msc_aut_vehicles/example_waypoint_follower.py
+[4.828s] Listing '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/local/lib/python3.10/dist-packages/msc_aut_vehicles'...
+[4.828s] Compiling '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/local/lib/python3.10/dist-packages/msc_aut_vehicles/__init__.py'...
+[4.853s] Invoked command in '/home/mpinho/proj_ws/src/build/msc_aut_vehicles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/msc_aut_vehicles

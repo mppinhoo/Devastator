@@ -1,0 +1,635 @@
+[0.000000] (-) TimerEvent: {}
+[0.000796] (msc_aut_vehicles) JobQueued: {'identifier': 'msc_aut_vehicles', 'dependencies': OrderedDict()}
+[0.000848] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.000864] (urg_node2) JobQueued: {'identifier': 'urg_node2', 'dependencies': OrderedDict()}
+[0.000877] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/mpinho/proj_ws/install/serial')])}
+[0.000896] (serial) JobStarted: {'identifier': 'serial'}
+[0.101498] (-) TimerEvent: {}
+[0.190718] (msc_aut_vehicles) JobStarted: {'identifier': 'msc_aut_vehicles'}
+[0.203686] (urg_node2) JobStarted: {'identifier': 'urg_node2'}
+[0.203876] (-) TimerEvent: {}
+[0.212553] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.214854] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.217265] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mpinho/proj_ws/build/serial', '--', '-j8', '-l8'], 'cwd': '/home/mpinho/proj_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'mpinho'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mpinho/proj_ws/install/urg_node2/lib:/home/mpinho/proj_ws/install/diffdrive_arduino/lib:/home/mpinho/proj_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mpinho'), ('OLDPWD', '/home/mpinho'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/mpinho/.nvm/versions/node/v22.4.0/bin'), ('NVM_INC', '/home/mpinho/.nvm/versions/node/v22.4.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/mpinho/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mpinho/proj_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mpinho'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mpinho'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mpinho/.nvm/versions/node/v22.4.0/bin:/opt/ros/humble/bin:/home/mpinho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/UbuntuROS2:@/tmp/.ICE-unix/1185,unix/UbuntuROS2:/tmp/.ICE-unix/1185'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cfa8db83_670b_453f_9275_3672b0801108'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IUE4Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mpinho/proj_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mpinho/proj_ws/install/msc_aut_vehicles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble')]), 'shell': False}
+[0.222867] (msc_aut_vehicles) JobProgress: {'identifier': 'msc_aut_vehicles', 'progress': 'cmake'}
+[0.223973] (msc_aut_vehicles) JobProgress: {'identifier': 'msc_aut_vehicles', 'progress': 'build'}
+[0.225390] (msc_aut_vehicles) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mpinho/proj_ws/build/msc_aut_vehicles', '--', '-j8', '-l8'], 'cwd': '/home/mpinho/proj_ws/build/msc_aut_vehicles', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'mpinho'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mpinho/proj_ws/install/urg_node2/lib:/home/mpinho/proj_ws/install/diffdrive_arduino/lib:/home/mpinho/proj_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mpinho'), ('OLDPWD', '/home/mpinho'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/mpinho/.nvm/versions/node/v22.4.0/bin'), ('NVM_INC', '/home/mpinho/.nvm/versions/node/v22.4.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/mpinho/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mpinho/proj_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mpinho'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mpinho'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mpinho/.nvm/versions/node/v22.4.0/bin:/opt/ros/humble/bin:/home/mpinho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/UbuntuROS2:@/tmp/.ICE-unix/1185,unix/UbuntuROS2:/tmp/.ICE-unix/1185'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cfa8db83_670b_453f_9275_3672b0801108'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IUE4Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mpinho/proj_ws/build/msc_aut_vehicles'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mpinho/proj_ws/install/msc_aut_vehicles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble')]), 'shell': False}
+[0.234428] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'cmake'}
+[0.250819] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'build'}
+[0.253306] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mpinho/proj_ws/build/urg_node2', '--', '-j8', '-l8'], 'cwd': '/home/mpinho/proj_ws/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'mpinho'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mpinho/proj_ws/install/urg_node2/lib:/home/mpinho/proj_ws/install/diffdrive_arduino/lib:/home/mpinho/proj_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mpinho'), ('OLDPWD', '/home/mpinho'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/mpinho/.nvm/versions/node/v22.4.0/bin'), ('NVM_INC', '/home/mpinho/.nvm/versions/node/v22.4.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/mpinho/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mpinho/proj_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mpinho'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mpinho'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mpinho/.nvm/versions/node/v22.4.0/bin:/opt/ros/humble/bin:/home/mpinho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/UbuntuROS2:@/tmp/.ICE-unix/1185,unix/UbuntuROS2:/tmp/.ICE-unix/1185'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cfa8db83_670b_453f_9275_3672b0801108'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IUE4Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mpinho/proj_ws/build/urg_node2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mpinho/proj_ws/install/msc_aut_vehicles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble')]), 'shell': False}
+[0.303992] (-) TimerEvent: {}
+[0.405958] (-) TimerEvent: {}
+[0.508745] (-) TimerEvent: {}
+[0.610631] (-) TimerEvent: {}
+[0.711270] (-) TimerEvent: {}
+[0.811976] (-) TimerEvent: {}
+[0.886077] (serial) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[0.886358] (serial) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[0.886497] (serial) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[0.902483] (msc_aut_vehicles) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_msc_aut_vehicles\n'}
+[0.913083] (-) TimerEvent: {}
+[0.943082] (serial) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[0.943316] (serial) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[1.013601] (-) TimerEvent: {}
+[1.114719] (-) TimerEvent: {}
+[1.216313] (-) TimerEvent: {}
+[1.317159] (-) TimerEvent: {}
+[1.419355] (-) TimerEvent: {}
+[1.490083] (msc_aut_vehicles) StdoutLine: {'line': b'running egg_info\n'}
+[1.491650] (msc_aut_vehicles) StdoutLine: {'line': b'writing msc_aut_vehicles.egg-info/PKG-INFO\n'}
+[1.492455] (msc_aut_vehicles) StdoutLine: {'line': b'writing dependency_links to msc_aut_vehicles.egg-info/dependency_links.txt\n'}
+[1.493039] (msc_aut_vehicles) StdoutLine: {'line': b'writing top-level names to msc_aut_vehicles.egg-info/top_level.txt\n'}
+[1.519776] (-) TimerEvent: {}
+[1.558691] (msc_aut_vehicles) StdoutLine: {'line': b"reading manifest file 'msc_aut_vehicles.egg-info/SOURCES.txt'\n"}
+[1.559941] (msc_aut_vehicles) StdoutLine: {'line': b"writing manifest file 'msc_aut_vehicles.egg-info/SOURCES.txt'\n"}
+[1.621838] (-) TimerEvent: {}
+[1.637428] (urg_node2) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[1.640019] (urg_node2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[1.640265] (urg_node2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o\x1b[0m\n'}
+[1.640467] (urg_node2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o\x1b[0m\n'}
+[1.647477] (urg_node2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o\x1b[0m\n'}
+[1.648054] (urg_node2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o\x1b[0m\n'}
+[1.649816] (urg_node2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o\x1b[0m\n'}
+[1.656526] (urg_node2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/urg_node2_node.dir/rclcpp_components/node_main_urg_node2_node.cpp.o\x1b[0m\n'}
+[1.672680] (msc_aut_vehicles) StdoutLine: {'line': b'Built target ament_cmake_python_build_msc_aut_vehicles_egg\n'}
+[1.696062] (msc_aut_vehicles) CommandEnded: {'returncode': 0}
+[1.722363] (-) TimerEvent: {}
+[1.756170] (msc_aut_vehicles) JobProgress: {'identifier': 'msc_aut_vehicles', 'progress': 'install'}
+[1.782954] (msc_aut_vehicles) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mpinho/proj_ws/build/msc_aut_vehicles'], 'cwd': '/home/mpinho/proj_ws/build/msc_aut_vehicles', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'mpinho'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mpinho/proj_ws/install/urg_node2/lib:/home/mpinho/proj_ws/install/diffdrive_arduino/lib:/home/mpinho/proj_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mpinho'), ('OLDPWD', '/home/mpinho'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/mpinho/.nvm/versions/node/v22.4.0/bin'), ('NVM_INC', '/home/mpinho/.nvm/versions/node/v22.4.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/mpinho/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mpinho/proj_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mpinho'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mpinho'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mpinho/.nvm/versions/node/v22.4.0/bin:/opt/ros/humble/bin:/home/mpinho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/UbuntuROS2:@/tmp/.ICE-unix/1185,unix/UbuntuROS2:/tmp/.ICE-unix/1185'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cfa8db83_670b_453f_9275_3672b0801108'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IUE4Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mpinho/proj_ws/build/msc_aut_vehicles'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mpinho/proj_ws/install/msc_aut_vehicles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble')]), 'shell': False}
+[1.797929] (msc_aut_vehicles) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.809942] (msc_aut_vehicles) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.817804] (urg_node2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mpinho/proj_ws/src/urg_node2/urg_library/current/src/urg_sensor.c:1349:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.818094] (urg_node2) StderrLine: {'line': b' 1349 | static \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K int receive_II_command_response(urg_t *urg,\n'}
+[1.818173] (urg_node2) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.818799] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/collision_monitor_params.yaml\n'}
+[1.823186] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/cost_map.rviz\n'}
+[1.826203] (-) TimerEvent: {}
+[1.827724] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/costmap2.rviz\n'}
+[1.828513] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/empty.yaml\n'}
+[1.829977] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/gazebo_params.yaml\n'}
+[1.830060] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/joint_names_Devastator2.yaml\n'}
+[1.830171] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/joystick.yaml\n'}
+[1.830240] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/mapper_params_lifelong.yaml\n'}
+[1.830305] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/mapper_params_online_async.yaml\n'}
+[1.830772] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/mapper_params_online_sync.yaml\n'}
+[1.830971] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/my_controllers.yaml\n'}
+[1.833493] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/nav2_params.yaml\n'}
+[1.833637] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/nav2_params1.yaml\n'}
+[1.833756] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/odom.rviz\n'}
+[1.833833] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/poligons.rviz\n'}
+[1.836923] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/slam.rviz\n'}
+[1.837053] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/twist_mux.yaml\n'}
+[1.837122] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/config/view_rviz.rviz\n'}
+[1.837187] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/description/camera.xacro\n'}
+[1.837251] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/description/depth_camera.xacro\n'}
+[1.837389] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/description/devastator.urdf.xacro\n'}
+[1.837485] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/description/devastator_solidworks.urdf.xacro\n'}
+[1.837551] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/description/gazebo_control.xacro\n'}
+[1.837631] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/description/inertial_macros.xacro\n'}
+[1.837697] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/description/lidar.xacro\n'}
+[1.837762] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/description/robot.urdf.xacro\n'}
+[1.837826] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/description/robot2.xacro\n'}
+[1.837979] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/description/robot_core.xacro\n'}
+[1.838081] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/description/ros2_control.xacro\n'}
+[1.838155] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/collision_monitor_node.launch.py\n'}
+[1.839046] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/gazebo.launch.py\n'}
+[1.839385] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/joystick.launch.py\n'}
+[1.839509] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/launch_heavy.py\n'}
+[1.839576] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/launch_robot.launch.py\n'}
+[1.839746] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/launch_sim.launch.py\n'}
+[1.839834] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/localization_launch.py\n'}
+[1.839899] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/navigation_launch.py\n'}
+[1.842186] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/obstacle_avoidance.launch.py\n'}
+[1.842294] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/online_async_launch.py\n'}
+[1.842359] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/online_sync_launch.py\n'}
+[1.842423] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/rplidar.launch.py\n'}
+[1.842488] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/rsp.launch.py\n'}
+[1.842696] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/launch/urg_node2.launch.py\n'}
+[1.842809] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/worlds/empty.world\n'}
+[1.842876] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/worlds/obstacles.world\n'}
+[1.842941] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/worlds/obstacles2.world\n'}
+[1.843006] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/worlds/obstacles3.world\n'}
+[1.843121] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/worlds/small_house.world\n'}
+[1.843189] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/worlds/two_cones.world\n'}
+[1.843251] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/worlds/world.model\n'}
+[1.843313] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/environment/pythonpath.sh\n'}
+[1.843375] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/environment/pythonpath.dsv\n'}
+[1.843439] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/local/lib/python3.10/dist-packages/msc_aut_vehicles-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.843505] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/local/lib/python3.10/dist-packages/msc_aut_vehicles-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.843620] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/local/lib/python3.10/dist-packages/msc_aut_vehicles-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.843692] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/local/lib/python3.10/dist-packages/msc_aut_vehicles-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.843755] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/local/lib/python3.10/dist-packages/msc_aut_vehicles/__init__.py\n'}
+[1.843819] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/lib/msc_aut_vehicles/example_waypoint_follower.py\n'}
+[1.844815] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/meshes/base_link.STL\n'}
+[1.845087] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/meshes/left_wheel.STL\n'}
+[1.845268] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/meshes/left_wheel2.STL\n'}
+[1.845336] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/meshes/left_wheel3.STL\n'}
+[1.845401] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/meshes/left_wheel4.STL\n'}
+[1.845525] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/meshes/left_wheel5.STL\n'}
+[1.847332] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/meshes/right_wheel.STL\n'}
+[1.847444] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/meshes/right_wheel2.STL\n'}
+[1.847516] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/meshes/right_wheel3.STL\n'}
+[1.847580] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/meshes/right_wheel4.STL\n'}
+[1.847645] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/meshes/right_wheel5.STL\n'}
+[1.847708] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/ament_index/resource_index/package_run_dependencies/msc_aut_vehicles\n'}
+[1.847836] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/ament_index/resource_index/parent_prefix_path/msc_aut_vehicles\n'}
+[1.847900] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/environment/ament_prefix_path.sh\n'}
+[1.848107] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/environment/ament_prefix_path.dsv\n'}
+[1.848351] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/environment/path.sh\n'}
+[1.848427] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/environment/path.dsv\n'}
+[1.848491] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/local_setup.bash\n'}
+[1.848556] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/local_setup.sh\n'}
+[1.848619] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/local_setup.zsh\n'}
+[1.848682] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/local_setup.dsv\n'}
+[1.848748] (msc_aut_vehicles) StdoutLine: {'line': b'-- Symlinking: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/package.dsv\n'}
+[1.858022] (urg_node2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mpinho/proj_ws/src/urg_node2/urg_library/current/src/urg_utils.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kurg_delay\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.858288] (urg_node2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mpinho/proj_ws/src/urg_node2/urg_library/current/src/urg_utils.c:224:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[Kusleep\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kurg_sleep\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.858361] (urg_node2) StderrLine: {'line': b'  224 |     \x1b[01;35m\x1b[Kusleep\x1b[m\x1b[K(1000 * delay_msec);\n'}
+[1.858426] (urg_node2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.858647] (urg_node2) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kurg_sleep\x1b[m\x1b[K\n'}
+[1.876311] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/ament_index/resource_index/packages/msc_aut_vehicles\n'}
+[1.876553] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/cmake/msc_aut_vehiclesConfig.cmake\n'}
+[1.876622] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/cmake/msc_aut_vehiclesConfig-version.cmake\n'}
+[1.876763] (msc_aut_vehicles) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/msc_aut_vehicles/share/msc_aut_vehicles/package.xml\n'}
+[1.927850] (-) TimerEvent: {}
+[1.965168] (urg_node2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o\x1b[0m\n'}
+[1.973575] (msc_aut_vehicles) StdoutLine: {'line': b"Listing '/home/mpinho/proj_ws/install/msc_aut_vehicles/local/lib/python3.10/dist-packages/msc_aut_vehicles'...\n"}
+[2.002933] (msc_aut_vehicles) CommandEnded: {'returncode': 0}
+[2.032721] (-) TimerEvent: {}
+[2.070703] (urg_node2) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library liburg_c.so\x1b[0m\n'}
+[2.133303] (-) TimerEvent: {}
+[2.254139] (-) TimerEvent: {}
+[2.318358] (msc_aut_vehicles) JobEnded: {'identifier': 'msc_aut_vehicles', 'rc': 0}
+[2.354225] (-) TimerEvent: {}
+[2.382927] (urg_node2) StdoutLine: {'line': b'[ 60%] Built target urg_c\n'}
+[2.454491] (-) TimerEvent: {}
+[2.539218] (urg_node2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/urg_node2.dir/src/urg_node2.cpp.o\x1b[0m\n'}
+[2.554863] (-) TimerEvent: {}
+[2.655677] (-) TimerEvent: {}
+[2.757566] (-) TimerEvent: {}
+[2.861279] (-) TimerEvent: {}
+[2.962022] (-) TimerEvent: {}
+[3.067084] (-) TimerEvent: {}
+[3.170223] (-) TimerEvent: {}
+[3.180278] (serial) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[3.268665] (serial) StdoutLine: {'line': b'[ 42%] Built target serial\n'}
+[3.270505] (-) TimerEvent: {}
+[3.316019] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o\x1b[0m\n'}
+[3.372590] (-) TimerEvent: {}
+[3.455068] (urg_node2) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.472858] (-) TimerEvent: {}
+[3.573426] (-) TimerEvent: {}
+[3.588804] (urg_node2) StdoutLine: {'line': b'[ 70%] Built target gtest_main\n'}
+[3.674029] (-) TimerEvent: {}
+[3.775081] (-) TimerEvent: {}
+[3.879963] (-) TimerEvent: {}
+[3.980735] (-) TimerEvent: {}
+[4.044000] (serial) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[4.081063] (-) TimerEvent: {}
+[4.095172] (serial) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable serial_example\x1b[0m\n'}
+[4.148552] (serial) StdoutLine: {'line': b'[ 64%] Built target gtest_main\n'}
+[4.181307] (-) TimerEvent: {}
+[4.284992] (-) TimerEvent: {}
+[4.391860] (-) TimerEvent: {}
+[4.492883] (-) TimerEvent: {}
+[4.519720] (serial) StdoutLine: {'line': b'[ 64%] Built target serial_example\n'}
+[4.593337] (-) TimerEvent: {}
+[4.694245] (-) TimerEvent: {}
+[4.795868] (-) TimerEvent: {}
+[4.897050] (-) TimerEvent: {}
+[4.997559] (-) TimerEvent: {}
+[5.098427] (-) TimerEvent: {}
+[5.201174] (-) TimerEvent: {}
+[5.302997] (-) TimerEvent: {}
+[5.416388] (-) TimerEvent: {}
+[5.518257] (-) TimerEvent: {}
+[5.622946] (-) TimerEvent: {}
+[5.724026] (-) TimerEvent: {}
+[5.828415] (-) TimerEvent: {}
+[5.929805] (-) TimerEvent: {}
+[6.031710] (-) TimerEvent: {}
+[6.132317] (-) TimerEvent: {}
+[6.236487] (-) TimerEvent: {}
+[6.337741] (-) TimerEvent: {}
+[6.440349] (-) TimerEvent: {}
+[6.542979] (-) TimerEvent: {}
+[6.644275] (-) TimerEvent: {}
+[6.748475] (-) TimerEvent: {}
+[6.849504] (-) TimerEvent: {}
+[6.952838] (-) TimerEvent: {}
+[7.053675] (-) TimerEvent: {}
+[7.154334] (-) TimerEvent: {}
+[7.255168] (-) TimerEvent: {}
+[7.356726] (-) TimerEvent: {}
+[7.460514] (-) TimerEvent: {}
+[7.561254] (-) TimerEvent: {}
+[7.666387] (-) TimerEvent: {}
+[7.766861] (-) TimerEvent: {}
+[7.867535] (-) TimerEvent: {}
+[7.968437] (-) TimerEvent: {}
+[8.070907] (-) TimerEvent: {}
+[8.171851] (-) TimerEvent: {}
+[8.272617] (-) TimerEvent: {}
+[8.378018] (-) TimerEvent: {}
+[8.480753] (-) TimerEvent: {}
+[8.583753] (-) TimerEvent: {}
+[8.684469] (-) TimerEvent: {}
+[8.768512] (urg_node2) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[8.784875] (-) TimerEvent: {}
+[8.889041] (-) TimerEvent: {}
+[8.904608] (urg_node2) StdoutLine: {'line': b'[ 75%] Built target gtest\n'}
+[8.981181] (urg_node2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o\x1b[0m\n'}
+[8.991037] (-) TimerEvent: {}
+[8.998526] (urg_node2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o\x1b[0m\n'}
+[9.062380] (serial) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[9.091376] (-) TimerEvent: {}
+[9.198733] (-) TimerEvent: {}
+[9.221900] (serial) StdoutLine: {'line': b'[ 71%] Built target gtest\n'}
+[9.270158] (serial) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o\x1b[0m\n'}
+[9.272675] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o\x1b[0m\n'}
+[9.298967] (-) TimerEvent: {}
+[9.401018] (-) TimerEvent: {}
+[9.501844] (-) TimerEvent: {}
+[9.603127] (-) TimerEvent: {}
+[9.704047] (-) TimerEvent: {}
+[9.804906] (-) TimerEvent: {}
+[9.905521] (-) TimerEvent: {}
+[10.007261] (-) TimerEvent: {}
+[10.109353] (-) TimerEvent: {}
+[10.215460] (-) TimerEvent: {}
+[10.261808] (urg_node2) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable urg_node2_node\x1b[0m\n'}
+[10.315886] (-) TimerEvent: {}
+[10.426934] (-) TimerEvent: {}
+[10.527627] (-) TimerEvent: {}
+[10.628240] (-) TimerEvent: {}
+[10.731813] (-) TimerEvent: {}
+[10.833083] (-) TimerEvent: {}
+[10.935776] (-) TimerEvent: {}
+[11.037613] (-) TimerEvent: {}
+[11.138443] (-) TimerEvent: {}
+[11.242874] (-) TimerEvent: {}
+[11.343598] (-) TimerEvent: {}
+[11.351011] (urg_node2) StdoutLine: {'line': b'[ 90%] Built target urg_node2_node\n'}
+[11.444407] (-) TimerEvent: {}
+[11.469006] (serial) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable serial-test-timer\x1b[0m\n'}
+[11.544803] (-) TimerEvent: {}
+[11.648754] (-) TimerEvent: {}
+[11.696874] (serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind.hpp:30\x1b[m\x1b[K,\n'}
+[11.698233] (serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mpinho/proj_ws/src/serial/tests/unix_serial_tests.cc:23\x1b[m\x1b[K:\n'}
+[11.698362] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.698444] (serial) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[11.698573] (serial) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.748929] (-) TimerEvent: {}
+[11.850213] (-) TimerEvent: {}
+[11.919113] (serial) StdoutLine: {'line': b'[ 92%] Built target serial-test-timer\n'}
+[11.950326] (-) TimerEvent: {}
+[12.052875] (-) TimerEvent: {}
+[12.131901] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial-test\x1b[0m\n'}
+[12.153588] (-) TimerEvent: {}
+[12.254425] (-) TimerEvent: {}
+[12.355051] (-) TimerEvent: {}
+[12.455663] (-) TimerEvent: {}
+[12.462940] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[12.481962] (serial) CommandEnded: {'returncode': 0}
+[12.545324] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[12.546780] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mpinho/proj_ws/build/serial'], 'cwd': '/home/mpinho/proj_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'mpinho'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mpinho/proj_ws/install/urg_node2/lib:/home/mpinho/proj_ws/install/diffdrive_arduino/lib:/home/mpinho/proj_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mpinho'), ('OLDPWD', '/home/mpinho'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/mpinho/.nvm/versions/node/v22.4.0/bin'), ('NVM_INC', '/home/mpinho/.nvm/versions/node/v22.4.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/mpinho/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mpinho/proj_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mpinho'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mpinho'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mpinho/.nvm/versions/node/v22.4.0/bin:/opt/ros/humble/bin:/home/mpinho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/UbuntuROS2:@/tmp/.ICE-unix/1185,unix/UbuntuROS2:/tmp/.ICE-unix/1185'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cfa8db83_670b_453f_9275_3672b0801108'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IUE4Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mpinho/proj_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mpinho/proj_ws/install/msc_aut_vehicles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble')]), 'shell': False}
+[12.555896] (-) TimerEvent: {}
+[12.557989] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.558839] (serial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.559266] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/lib/libserial.a\n'}
+[12.559515] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/include/serial/serial.h\n'}
+[12.559803] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/include/serial/v8stdint.h\n'}
+[12.560100] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[12.560294] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[12.560561] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[12.560758] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[12.561017] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[12.561198] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[12.561401] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/serial/environment/path.sh\n'}
+[12.561681] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/serial/environment/path.dsv\n'}
+[12.561932] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/serial/local_setup.bash\n'}
+[12.562110] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/serial/local_setup.sh\n'}
+[12.562272] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/serial/local_setup.zsh\n'}
+[12.562484] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/serial/local_setup.dsv\n'}
+[12.562691] (serial) StdoutLine: {'line': b'-- Symlinking: /home/mpinho/proj_ws/install/serial/share/serial/package.dsv\n'}
+[12.576943] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[12.577254] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.577488] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.578060] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[12.579946] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[12.580336] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/serial/share/serial/package.xml\n'}
+[12.583804] (serial) CommandEnded: {'returncode': 0}
+[12.656108] (-) TimerEvent: {}
+[12.681209] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[12.683975] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[12.700121] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[12.701688] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[12.702992] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mpinho/proj_ws/build/diffdrive_arduino', '--', '-j8', '-l8'], 'cwd': '/home/mpinho/proj_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'mpinho'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mpinho/proj_ws/install/urg_node2/lib:/home/mpinho/proj_ws/install/diffdrive_arduino/lib:/home/mpinho/proj_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mpinho'), ('OLDPWD', '/home/mpinho'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/mpinho/.nvm/versions/node/v22.4.0/bin'), ('NVM_INC', '/home/mpinho/.nvm/versions/node/v22.4.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/mpinho/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mpinho/proj_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mpinho'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mpinho'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mpinho/.nvm/versions/node/v22.4.0/bin:/opt/ros/humble/bin:/home/mpinho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/UbuntuROS2:@/tmp/.ICE-unix/1185,unix/UbuntuROS2:/tmp/.ICE-unix/1185'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cfa8db83_670b_453f_9275_3672b0801108'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IUE4Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mpinho/proj_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mpinho/proj_ws/install/msc_aut_vehicles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble')]), 'shell': False}
+[12.756342] (-) TimerEvent: {}
+[12.813273] (diffdrive_arduino) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o\x1b[0m\n'}
+[12.816120] (diffdrive_arduino) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o\x1b[0m\n'}
+[12.816464] (diffdrive_arduino) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o\x1b[0m\n'}
+[12.818225] (diffdrive_arduino) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o\x1b[0m\n'}
+[12.819834] (diffdrive_arduino) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o\x1b[0m\n'}
+[12.858016] (-) TimerEvent: {}
+[12.958823] (-) TimerEvent: {}
+[13.059266] (-) TimerEvent: {}
+[13.160985] (-) TimerEvent: {}
+[13.261905] (-) TimerEvent: {}
+[13.362829] (-) TimerEvent: {}
+[13.475028] (-) TimerEvent: {}
+[13.576542] (-) TimerEvent: {}
+[13.676975] (-) TimerEvent: {}
+[13.777825] (-) TimerEvent: {}
+[13.878984] (-) TimerEvent: {}
+[13.979859] (-) TimerEvent: {}
+[14.083301] (-) TimerEvent: {}
+[14.191843] (-) TimerEvent: {}
+[14.296117] (-) TimerEvent: {}
+[14.401544] (-) TimerEvent: {}
+[14.502168] (-) TimerEvent: {}
+[14.603211] (-) TimerEvent: {}
+[14.716927] (-) TimerEvent: {}
+[14.833765] (-) TimerEvent: {}
+[14.943878] (-) TimerEvent: {}
+[15.050872] (-) TimerEvent: {}
+[15.153761] (-) TimerEvent: {}
+[15.254549] (-) TimerEvent: {}
+[15.368466] (-) TimerEvent: {}
+[15.470564] (-) TimerEvent: {}
+[15.572767] (-) TimerEvent: {}
+[15.677362] (-) TimerEvent: {}
+[15.778897] (-) TimerEvent: {}
+[15.879390] (-) TimerEvent: {}
+[15.979920] (-) TimerEvent: {}
+[16.081319] (-) TimerEvent: {}
+[16.186239] (-) TimerEvent: {}
+[16.288447] (-) TimerEvent: {}
+[16.393202] (-) TimerEvent: {}
+[16.499398] (-) TimerEvent: {}
+[16.600891] (-) TimerEvent: {}
+[16.706058] (-) TimerEvent: {}
+[16.806712] (-) TimerEvent: {}
+[16.908161] (-) TimerEvent: {}
+[17.012253] (-) TimerEvent: {}
+[17.112699] (-) TimerEvent: {}
+[17.223128] (-) TimerEvent: {}
+[17.327776] (-) TimerEvent: {}
+[17.429193] (-) TimerEvent: {}
+[17.529870] (-) TimerEvent: {}
+[17.630735] (-) TimerEvent: {}
+[17.732221] (-) TimerEvent: {}
+[17.835831] (-) TimerEvent: {}
+[17.936825] (-) TimerEvent: {}
+[18.038802] (-) TimerEvent: {}
+[18.144190] (-) TimerEvent: {}
+[18.246146] (-) TimerEvent: {}
+[18.349724] (-) TimerEvent: {}
+[18.450282] (-) TimerEvent: {}
+[18.555011] (-) TimerEvent: {}
+[18.657062] (-) TimerEvent: {}
+[18.757924] (-) TimerEvent: {}
+[18.858538] (-) TimerEvent: {}
+[18.961592] (-) TimerEvent: {}
+[18.992849] (urg_node2) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX shared library liburg_node2.so\x1b[0m\n'}
+[19.062001] (-) TimerEvent: {}
+[19.164232] (-) TimerEvent: {}
+[19.265022] (-) TimerEvent: {}
+[19.365710] (-) TimerEvent: {}
+[19.467552] (-) TimerEvent: {}
+[19.568081] (-) TimerEvent: {}
+[19.668828] (-) TimerEvent: {}
+[19.773129] (-) TimerEvent: {}
+[19.873916] (-) TimerEvent: {}
+[19.974694] (-) TimerEvent: {}
+[20.075954] (-) TimerEvent: {}
+[20.178324] (-) TimerEvent: {}
+[20.281410] (-) TimerEvent: {}
+[20.382799] (-) TimerEvent: {}
+[20.411394] (urg_node2) StdoutLine: {'line': b'[ 95%] Built target urg_node2\n'}
+[20.508968] (-) TimerEvent: {}
+[20.610758] (-) TimerEvent: {}
+[20.711529] (-) TimerEvent: {}
+[20.808238] (diffdrive_arduino) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libfake_robot.so\x1b[0m\n'}
+[20.819873] (-) TimerEvent: {}
+[20.921344] (-) TimerEvent: {}
+[21.023743] (-) TimerEvent: {}
+[21.127789] (-) TimerEvent: {}
+[21.231389] (-) TimerEvent: {}
+[21.334305] (-) TimerEvent: {}
+[21.436678] (-) TimerEvent: {}
+[21.454936] (diffdrive_arduino) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[21.536876] (-) TimerEvent: {}
+[21.637696] (-) TimerEvent: {}
+[21.638512] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target fake_robot\n'}
+[21.742882] (-) TimerEvent: {}
+[21.843755] (-) TimerEvent: {}
+[21.945965] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[21.946339] (-) TimerEvent: {}
+[21.980627] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[22.042851] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[22.044707] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mpinho/proj_ws/build/diffdrive_arduino'], 'cwd': '/home/mpinho/proj_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'mpinho'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mpinho/proj_ws/install/urg_node2/lib:/home/mpinho/proj_ws/install/diffdrive_arduino/lib:/home/mpinho/proj_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mpinho'), ('OLDPWD', '/home/mpinho'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/mpinho/.nvm/versions/node/v22.4.0/bin'), ('NVM_INC', '/home/mpinho/.nvm/versions/node/v22.4.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/mpinho/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mpinho/proj_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mpinho'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mpinho'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mpinho/.nvm/versions/node/v22.4.0/bin:/opt/ros/humble/bin:/home/mpinho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/UbuntuROS2:@/tmp/.ICE-unix/1185,unix/UbuntuROS2:/tmp/.ICE-unix/1185'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cfa8db83_670b_453f_9275_3672b0801108'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IUE4Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mpinho/proj_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mpinho/proj_ws/install/msc_aut_vehicles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble')]), 'shell': False}
+[22.047076] (-) TimerEvent: {}
+[22.056105] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.058120] (diffdrive_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[22.058503] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml\n'}
+[22.058804] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml\n'}
+[22.059918] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[22.060251] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/lib/libfake_robot.so\n'}
+[22.060681] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml\n'}
+[22.061022] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py\n'}
+[22.061168] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py\n'}
+[22.061367] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[22.061716] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[22.061972] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[22.062203] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[22.062390] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[22.062656] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[22.062908] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[22.063134] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[22.063319] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[22.063527] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[22.064062] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[22.064313] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[22.064485] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[22.079760] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[22.080084] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[22.080463] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.080724] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.081116] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[22.081378] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[22.081529] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[22.084664] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[22.151288] (-) TimerEvent: {}
+[22.195400] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[22.252089] (-) TimerEvent: {}
+[22.352870] (-) TimerEvent: {}
+[22.454600] (-) TimerEvent: {}
+[22.555311] (-) TimerEvent: {}
+[22.656045] (-) TimerEvent: {}
+[22.756921] (-) TimerEvent: {}
+[22.861828] (-) TimerEvent: {}
+[22.965144] (-) TimerEvent: {}
+[23.066047] (-) TimerEvent: {}
+[23.166663] (-) TimerEvent: {}
+[23.267210] (-) TimerEvent: {}
+[23.368564] (-) TimerEvent: {}
+[23.470918] (-) TimerEvent: {}
+[23.571835] (-) TimerEvent: {}
+[23.672574] (-) TimerEvent: {}
+[23.774311] (-) TimerEvent: {}
+[23.874811] (-) TimerEvent: {}
+[23.975667] (-) TimerEvent: {}
+[24.080042] (-) TimerEvent: {}
+[24.182147] (-) TimerEvent: {}
+[24.282719] (-) TimerEvent: {}
+[24.384764] (-) TimerEvent: {}
+[24.490293] (-) TimerEvent: {}
+[24.599985] (-) TimerEvent: {}
+[24.703310] (-) TimerEvent: {}
+[24.807802] (-) TimerEvent: {}
+[24.912755] (-) TimerEvent: {}
+[25.013840] (-) TimerEvent: {}
+[25.117020] (-) TimerEvent: {}
+[25.219107] (-) TimerEvent: {}
+[25.320977] (-) TimerEvent: {}
+[25.423338] (-) TimerEvent: {}
+[25.527249] (-) TimerEvent: {}
+[25.633517] (-) TimerEvent: {}
+[25.736896] (-) TimerEvent: {}
+[25.840660] (-) TimerEvent: {}
+[25.943463] (-) TimerEvent: {}
+[26.046769] (-) TimerEvent: {}
+[26.147286] (-) TimerEvent: {}
+[26.249330] (-) TimerEvent: {}
+[26.351202] (-) TimerEvent: {}
+[26.452080] (-) TimerEvent: {}
+[26.559873] (-) TimerEvent: {}
+[26.660800] (-) TimerEvent: {}
+[26.761569] (-) TimerEvent: {}
+[26.862165] (-) TimerEvent: {}
+[26.963734] (-) TimerEvent: {}
+[27.066212] (-) TimerEvent: {}
+[27.166732] (-) TimerEvent: {}
+[27.267454] (-) TimerEvent: {}
+[27.368791] (-) TimerEvent: {}
+[27.469727] (-) TimerEvent: {}
+[27.573895] (-) TimerEvent: {}
+[27.674428] (-) TimerEvent: {}
+[27.775687] (-) TimerEvent: {}
+[27.876413] (-) TimerEvent: {}
+[27.980125] (-) TimerEvent: {}
+[28.080967] (-) TimerEvent: {}
+[28.183130] (-) TimerEvent: {}
+[28.285181] (-) TimerEvent: {}
+[28.386143] (-) TimerEvent: {}
+[28.487352] (-) TimerEvent: {}
+[28.587942] (-) TimerEvent: {}
+[28.689197] (-) TimerEvent: {}
+[28.790160] (-) TimerEvent: {}
+[28.891714] (-) TimerEvent: {}
+[28.992940] (-) TimerEvent: {}
+[29.094158] (-) TimerEvent: {}
+[29.194966] (-) TimerEvent: {}
+[29.302743] (-) TimerEvent: {}
+[29.403643] (-) TimerEvent: {}
+[29.504400] (-) TimerEvent: {}
+[29.605316] (-) TimerEvent: {}
+[29.706635] (-) TimerEvent: {}
+[29.809133] (-) TimerEvent: {}
+[29.911225] (-) TimerEvent: {}
+[30.012155] (-) TimerEvent: {}
+[30.113324] (-) TimerEvent: {}
+[30.214256] (-) TimerEvent: {}
+[30.317650] (-) TimerEvent: {}
+[30.418805] (-) TimerEvent: {}
+[30.519381] (-) TimerEvent: {}
+[30.620261] (-) TimerEvent: {}
+[30.720986] (-) TimerEvent: {}
+[30.821745] (-) TimerEvent: {}
+[30.923687] (-) TimerEvent: {}
+[31.024064] (-) TimerEvent: {}
+[31.136017] (-) TimerEvent: {}
+[31.242716] (-) TimerEvent: {}
+[31.343286] (-) TimerEvent: {}
+[31.448562] (-) TimerEvent: {}
+[31.549356] (-) TimerEvent: {}
+[31.649819] (-) TimerEvent: {}
+[31.750739] (-) TimerEvent: {}
+[31.851135] (-) TimerEvent: {}
+[31.952341] (-) TimerEvent: {}
+[32.053611] (-) TimerEvent: {}
+[32.156696] (-) TimerEvent: {}
+[32.257758] (-) TimerEvent: {}
+[32.361749] (-) TimerEvent: {}
+[32.462394] (-) TimerEvent: {}
+[32.567758] (-) TimerEvent: {}
+[32.679784] (-) TimerEvent: {}
+[32.784720] (-) TimerEvent: {}
+[32.885831] (-) TimerEvent: {}
+[32.987622] (-) TimerEvent: {}
+[33.096662] (-) TimerEvent: {}
+[33.200694] (-) TimerEvent: {}
+[33.301240] (-) TimerEvent: {}
+[33.402440] (-) TimerEvent: {}
+[33.485743] (urg_node2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable urg_node2_test\x1b[0m\n'}
+[33.503001] (-) TimerEvent: {}
+[33.603858] (-) TimerEvent: {}
+[33.704651] (-) TimerEvent: {}
+[33.808673] (-) TimerEvent: {}
+[33.909604] (-) TimerEvent: {}
+[34.012049] (-) TimerEvent: {}
+[34.114282] (-) TimerEvent: {}
+[34.219063] (-) TimerEvent: {}
+[34.325822] (-) TimerEvent: {}
+[34.428131] (-) TimerEvent: {}
+[34.529159] (-) TimerEvent: {}
+[34.630778] (-) TimerEvent: {}
+[34.731454] (-) TimerEvent: {}
+[34.832461] (-) TimerEvent: {}
+[34.933500] (-) TimerEvent: {}
+[35.035769] (-) TimerEvent: {}
+[35.144065] (-) TimerEvent: {}
+[35.247454] (-) TimerEvent: {}
+[35.347966] (-) TimerEvent: {}
+[35.448766] (-) TimerEvent: {}
+[35.549190] (-) TimerEvent: {}
+[35.661614] (-) TimerEvent: {}
+[35.762072] (-) TimerEvent: {}
+[35.766674] (urg_node2) StdoutLine: {'line': b'[100%] Built target urg_node2_test\n'}
+[35.784870] (urg_node2) CommandEnded: {'returncode': 0}
+[35.862187] (-) TimerEvent: {}
+[35.873284] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'install'}
+[35.874569] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mpinho/proj_ws/build/urg_node2'], 'cwd': '/home/mpinho/proj_ws/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'mpinho'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mpinho/proj_ws/install/urg_node2/lib:/home/mpinho/proj_ws/install/diffdrive_arduino/lib:/home/mpinho/proj_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mpinho'), ('OLDPWD', '/home/mpinho'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/mpinho/.nvm/versions/node/v22.4.0/bin'), ('NVM_INC', '/home/mpinho/.nvm/versions/node/v22.4.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/mpinho/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mpinho/proj_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mpinho'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mpinho'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mpinho/.nvm/versions/node/v22.4.0/bin:/opt/ros/humble/bin:/home/mpinho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/UbuntuROS2:@/tmp/.ICE-unix/1185,unix/UbuntuROS2:/tmp/.ICE-unix/1185'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cfa8db83_670b_453f_9275_3672b0801108'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IUE4Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mpinho/proj_ws/build/urg_node2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mpinho/proj_ws/install/msc_aut_vehicles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble')]), 'shell': False}
+[35.903897] (urg_node2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.912981] (urg_node2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[35.916050] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/lib/urg_node2/urg_node2_node\n'}
+[35.942361] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/lib/liburg_node2.so\n'}
+[35.942620] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/lib/liburg_c.so\n'}
+[35.942815] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/launch/urg_node2.launch.py\n'}
+[35.942958] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/launch/urg_node2_2lidar.launch.py\n'}
+[35.943094] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/launch/urg_node2_component.launch.py\n'}
+[35.943334] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/config/params_ether.yaml\n'}
+[35.943447] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/config/params_ether_2nd.yaml\n'}
+[35.943605] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/config/params_serial.yaml\n'}
+[35.943902] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/ament_index/resource_index/package_run_dependencies/urg_node2\n'}
+[35.944106] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/ament_index/resource_index/parent_prefix_path/urg_node2\n'}
+[35.944377] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/environment/ament_prefix_path.sh\n'}
+[35.944542] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/environment/ament_prefix_path.dsv\n'}
+[35.944968] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/environment/path.sh\n'}
+[35.945150] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/environment/path.dsv\n'}
+[35.945310] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/local_setup.bash\n'}
+[35.945437] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/local_setup.sh\n'}
+[35.945596] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/local_setup.zsh\n'}
+[35.945844] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/local_setup.dsv\n'}
+[35.945971] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/package.dsv\n'}
+[35.959868] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/ament_index/resource_index/packages/urg_node2\n'}
+[35.960220] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/ament_index/resource_index/rclcpp_components/urg_node2\n'}
+[35.960374] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/cmake/urg_node2Config.cmake\n'}
+[35.960440] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/cmake/urg_node2Config-version.cmake\n'}
+[35.961105] (urg_node2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/package.xml\n'}
+[35.966900] (-) TimerEvent: {}
+[35.971599] (urg_node2) CommandEnded: {'returncode': 0}
+[36.067344] (-) TimerEvent: {}
+[36.089782] (urg_node2) JobEnded: {'identifier': 'urg_node2', 'rc': 0}
+[36.091401] (-) EventReactorShutdown: {}

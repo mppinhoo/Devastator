@@ -1,0 +1,2 @@
+Invoking command in '/home/mpinho/proj_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/build/serial -- -j8 -l8
+Invoked command in '/home/mpinho/proj_ws/build/serial' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/build/serial -- -j8 -l8

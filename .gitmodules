@@ -1,0 +1,12 @@
+[submodule "src/urg_node2"]
+	path = src/urg_node2
+	url = https://github.com/Hokuyo-aut/urg_node2
+<<<<<<< HEAD
+=======
+[submodule "src/diffdrive_arduino"]
+	path = src/diffdrive_arduino
+	url = https://github.com/joshnewans/diffdrive_arduino
+[submodule "src/serial"]
+	path = src/serial
+	url = https://github.com/wjwwood/serial
+>>>>>>> cae79a5

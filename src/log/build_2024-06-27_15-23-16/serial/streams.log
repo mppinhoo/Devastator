@@ -1,0 +1,34 @@
+[0.101s] Invoking command in '/home/mpinho/proj_ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/src/install/joy_tester:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/serial -- -j8 -l8
+[0.804s] [ 14%] Built target gtest_main
+[0.804s] [ 42%] Built target serial
+[0.805s] [ 57%] Built target gtest
+[0.805s] [ 71%] Built target serial_example
+[0.805s] [100%] Built target serial-test-timer
+[0.806s] [100%] Built target serial-test
+[0.817s] Invoked command in '/home/mpinho/proj_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/src/install/joy_tester:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/serial -- -j8 -l8
+[0.928s] Invoking command in '/home/mpinho/proj_ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/src/install/joy_tester:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/serial
+[0.941s] -- Install configuration: ""
+[0.942s] -- Execute custom install script
+[0.942s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/lib/libserial.a
+[0.943s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/include/serial/serial.h
+[0.943s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/include/serial/v8stdint.h
+[0.943s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/library_path.sh
+[0.944s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/library_path.dsv
+[0.945s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.945s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.946s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.946s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.946s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/path.sh
+[0.946s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/path.dsv
+[0.947s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/local_setup.bash
+[0.947s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/local_setup.sh
+[0.947s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/local_setup.zsh
+[0.948s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/local_setup.dsv
+[0.948s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/package.dsv
+[0.969s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/ament_index/resource_index/packages/serial
+[0.970s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.970s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[0.970s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/cmake/serialConfig.cmake
+[0.971s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/cmake/serialConfig-version.cmake
+[0.971s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/package.xml
+[0.977s] Invoked command in '/home/mpinho/proj_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/src/install/joy_tester:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/serial

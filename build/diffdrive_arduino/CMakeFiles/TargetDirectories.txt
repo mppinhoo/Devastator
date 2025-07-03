@@ -1,0 +1,11 @@
+/home/mpinho/proj_ws/build/diffdrive_arduino/CMakeFiles/uninstall.dir
+/home/mpinho/proj_ws/build/diffdrive_arduino/CMakeFiles/diffdrive_arduino_uninstall.dir
+/home/mpinho/proj_ws/build/diffdrive_arduino/CMakeFiles/diffdrive_arduino.dir
+/home/mpinho/proj_ws/build/diffdrive_arduino/CMakeFiles/fake_robot.dir
+/home/mpinho/proj_ws/build/diffdrive_arduino/CMakeFiles/test.dir
+/home/mpinho/proj_ws/build/diffdrive_arduino/CMakeFiles/edit_cache.dir
+/home/mpinho/proj_ws/build/diffdrive_arduino/CMakeFiles/rebuild_cache.dir
+/home/mpinho/proj_ws/build/diffdrive_arduino/CMakeFiles/list_install_components.dir
+/home/mpinho/proj_ws/build/diffdrive_arduino/CMakeFiles/install.dir
+/home/mpinho/proj_ws/build/diffdrive_arduino/CMakeFiles/install/local.dir
+/home/mpinho/proj_ws/build/diffdrive_arduino/CMakeFiles/install/strip.dir

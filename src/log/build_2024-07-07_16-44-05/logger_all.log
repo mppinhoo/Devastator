@@ -1,0 +1,317 @@
+[0.200s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.200s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b093183cf40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b0931941a50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b0931941a50>>)
+[0.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.525s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mpinho/proj_ws/src'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'ignore'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'ignore_ament_install'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extensions ['colcon_pkg']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'colcon_pkg'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extensions ['colcon_meta']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'colcon_meta'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extensions ['ros']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(diffdrive_arduino) by extension 'ros'
+[0.547s] DEBUG:colcon.colcon_core.package_identification:Package 'diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extension 'ignore'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extension 'ignore_ament_install'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extensions ['colcon_pkg']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extension 'colcon_pkg'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extensions ['colcon_meta']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extension 'colcon_meta'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extensions ['ros']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extension 'ros'
+[0.549s] DEBUG:colcon.colcon_core.package_identification:Package 'joy_tester' with type 'ros.ament_python' and name 'joy_tester'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(msc_aut_vehicles) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(msc_aut_vehicles) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(msc_aut_vehicles) by extension 'ignore_ament_install'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(msc_aut_vehicles) by extensions ['colcon_pkg']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(msc_aut_vehicles) by extension 'colcon_pkg'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(msc_aut_vehicles) by extensions ['colcon_meta']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(msc_aut_vehicles) by extension 'colcon_meta'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(msc_aut_vehicles) by extensions ['ros']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(msc_aut_vehicles) by extension 'ros'
+[0.553s] DEBUG:colcon.colcon_core.package_identification:Package 'msc_aut_vehicles' with type 'ros.ament_cmake' and name 'msc_aut_vehicles'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'ignore_ament_install'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['colcon_pkg']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'colcon_pkg'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['colcon_meta']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'colcon_meta'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extensions ['ros']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(serial) by extension 'ros'
+[0.555s] DEBUG:colcon.colcon_core.package_identification:Package 'serial' with type 'ros.ament_cmake' and name 'serial'
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.606s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/mpinho/proj_ws/install
+[0.610s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 416 installed packages in /opt/ros/humble
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_args' from command line to 'None'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target' from command line to 'None'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_cache' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_first' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_force_configure' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'ament_cmake_args' from command line to 'None'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_cmake_args' from command line to 'None'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.702s] DEBUG:colcon.colcon_core.verb:Building package 'joy_tester' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mpinho/proj_ws/src/build/joy_tester', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mpinho/proj_ws/src/install/joy_tester', 'merge_install': False, 'path': '/home/mpinho/proj_ws/src/joy_tester', 'symlink_install': True, 'test_result_base': None}
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'msc_aut_vehicles' build argument 'cmake_args' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'msc_aut_vehicles' build argument 'cmake_target' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'msc_aut_vehicles' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'msc_aut_vehicles' build argument 'cmake_clean_cache' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'msc_aut_vehicles' build argument 'cmake_clean_first' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'msc_aut_vehicles' build argument 'cmake_force_configure' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'msc_aut_vehicles' build argument 'ament_cmake_args' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'msc_aut_vehicles' build argument 'catkin_cmake_args' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'msc_aut_vehicles' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.703s] DEBUG:colcon.colcon_core.verb:Building package 'msc_aut_vehicles' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mpinho/proj_ws/src/build/msc_aut_vehicles', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mpinho/proj_ws/src/install/msc_aut_vehicles', 'merge_install': False, 'path': '/home/mpinho/proj_ws/src/msc_aut_vehicles', 'symlink_install': True, 'test_result_base': None}
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.704s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mpinho/proj_ws/src/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mpinho/proj_ws/src/install/serial', 'merge_install': False, 'path': '/home/mpinho/proj_ws/src/serial', 'symlink_install': True, 'test_result_base': None}
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.705s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mpinho/proj_ws/src/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mpinho/proj_ws/src/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/mpinho/proj_ws/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[0.705s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.707s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.707s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mpinho/proj_ws/src/serial' with build type 'ament_cmake'
+[0.708s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mpinho/proj_ws/src/serial'
+[0.711s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.711s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.711s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.718s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mpinho/proj_ws/src/joy_tester' with build type 'ament_python'
+[0.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'ament_prefix_path')
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/joy_tester/share/joy_tester/hook/ament_prefix_path.ps1'
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpinho/proj_ws/src/install/joy_tester/share/joy_tester/hook/ament_prefix_path.dsv'
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/joy_tester/share/joy_tester/hook/ament_prefix_path.sh'
+[0.723s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.723s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.730s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mpinho/proj_ws/src/msc_aut_vehicles' with build type 'ament_cmake'
+[0.730s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mpinho/proj_ws/src/msc_aut_vehicles'
+[0.730s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.730s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mpinho/proj_ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/serial -- -j8 -l8
+[1.278s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mpinho/proj_ws/src/joy_tester'
+[1.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mpinho/proj_ws/src/build/msc_aut_vehicles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/msc_aut_vehicles -- -j8 -l8
+[1.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mpinho/proj_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/serial -- -j8 -l8
+[1.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mpinho/proj_ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/serial
+[1.431s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[1.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mpinho/proj_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/serial
+[1.436s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/serial' for CMake module files
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/serial' for CMake config files
+[1.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[1.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[1.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpinho/proj_ws/src/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[1.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/serial/lib'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/serial/bin'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/serial/lib/pkgconfig/serial.pc'
+[1.442s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/serial/lib/python3.10/site-packages'
+[1.442s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/serial/bin'
+[1.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/serial/share/serial/package.ps1'
+[1.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mpinho/proj_ws/src/install/serial/share/serial/package.dsv'
+[1.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/serial/share/serial/package.sh'
+[1.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/serial/share/serial/package.bash'
+[1.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/serial/share/serial/package.zsh'
+[1.451s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mpinho/proj_ws/src/install/serial/share/colcon-core/packages/serial)
+[1.522s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/serial' for CMake module files
+[1.523s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/serial' for CMake config files
+[1.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[1.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpinho/proj_ws/src/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[1.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/serial/lib'
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/serial/bin'
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/serial/lib/pkgconfig/serial.pc'
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/serial/lib/python3.10/site-packages'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/serial/bin'
+[1.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/serial/share/serial/package.ps1'
+[1.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mpinho/proj_ws/src/install/serial/share/serial/package.dsv'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/serial/share/serial/package.sh'
+[1.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/serial/share/serial/package.bash'
+[1.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/serial/share/serial/package.zsh'
+[1.535s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mpinho/proj_ws/src/install/serial/share/colcon-core/packages/serial)
+[1.535s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mpinho/proj_ws/src/diffdrive_arduino' with build type 'ament_cmake'
+[1.535s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mpinho/proj_ws/src/diffdrive_arduino'
+[1.536s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.536s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mpinho/proj_ws/src/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/mpinho/proj_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/diffdrive_arduino -- -j8 -l8
+[1.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mpinho/proj_ws/src/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/mpinho/proj_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/diffdrive_arduino -- -j8 -l8
+[1.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mpinho/proj_ws/src/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/mpinho/proj_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/diffdrive_arduino
+[1.820s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[1.821s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/diffdrive_arduino' for CMake module files
+[1.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mpinho/proj_ws/src/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble LD_LIBRARY_PATH=/home/mpinho/proj_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/diffdrive_arduino
+[1.822s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/diffdrive_arduino' for CMake config files
+[1.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[1.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[1.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[1.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[1.825s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/diffdrive_arduino/lib'
+[1.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[1.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[1.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[1.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[1.827s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/diffdrive_arduino/bin'
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/diffdrive_arduino/lib/python3.10/site-packages'
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/diffdrive_arduino/bin'
+[1.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[1.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[1.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[1.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[1.834s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[1.904s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[1.904s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/diffdrive_arduino' for CMake module files
+[1.905s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/diffdrive_arduino' for CMake config files
+[1.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[1.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[1.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[1.910s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/diffdrive_arduino/lib'
+[1.910s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[1.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[1.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[1.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[1.913s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/diffdrive_arduino/bin'
+[1.913s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[1.914s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/diffdrive_arduino/lib/python3.10/site-packages'
+[1.914s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/diffdrive_arduino/bin'
+[1.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[1.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[1.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[1.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[1.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[1.919s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mpinho/proj_ws/src/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[2.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mpinho/proj_ws/src/build/joy_tester': PYTHONPATH=/home/mpinho/proj_ws/src/build/joy_tester/prefix_override:/home/mpinho/proj_ws/src/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mpinho/proj_ws/src/build/joy_tester/build --no-deps symlink_data
+[2.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mpinho/proj_ws/src/build/msc_aut_vehicles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/msc_aut_vehicles -- -j8 -l8
+[2.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mpinho/proj_ws/src/build/msc_aut_vehicles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/msc_aut_vehicles
+[3.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msc_aut_vehicles)
+[3.049s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/msc_aut_vehicles' for CMake module files
+[3.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mpinho/proj_ws/src/build/msc_aut_vehicles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/msc_aut_vehicles
+[3.050s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/msc_aut_vehicles' for CMake config files
+[3.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('msc_aut_vehicles', 'cmake_prefix_path')
+[3.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/hook/cmake_prefix_path.ps1'
+[3.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/hook/cmake_prefix_path.dsv'
+[3.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/hook/cmake_prefix_path.sh'
+[3.055s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/lib'
+[3.056s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/bin'
+[3.056s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/lib/pkgconfig/msc_aut_vehicles.pc'
+[3.056s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/lib/python3.10/site-packages'
+[3.057s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/bin'
+[3.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/package.ps1'
+[3.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/package.dsv'
+[3.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/package.sh'
+[3.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/package.bash'
+[3.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/package.zsh'
+[3.063s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/colcon-core/packages/msc_aut_vehicles)
+[3.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'pythonpath_develop')
+[3.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/build/joy_tester/share/joy_tester/hook/pythonpath_develop.ps1'
+[3.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mpinho/proj_ws/src/build/joy_tester' returned '0': PYTHONPATH=/home/mpinho/proj_ws/src/build/joy_tester/prefix_override:/home/mpinho/proj_ws/src/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mpinho/proj_ws/src/build/joy_tester/build --no-deps symlink_data
+[3.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpinho/proj_ws/src/build/joy_tester/share/joy_tester/hook/pythonpath_develop.dsv'
+[3.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/build/joy_tester/share/joy_tester/hook/pythonpath_develop.sh'
+[3.074s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/joy_tester' for CMake module files
+[3.075s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/joy_tester' for CMake config files
+[3.076s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/joy_tester/lib'
+[3.076s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/joy_tester/bin'
+[3.076s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/joy_tester/lib/pkgconfig/joy_tester.pc'
+[3.077s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/joy_tester/lib/python3.10/site-packages'
+[3.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'pythonpath')
+[3.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/joy_tester/share/joy_tester/hook/pythonpath.ps1'
+[3.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpinho/proj_ws/src/install/joy_tester/share/joy_tester/hook/pythonpath.dsv'
+[3.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/joy_tester/share/joy_tester/hook/pythonpath.sh'
+[3.080s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/joy_tester/bin'
+[3.080s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_tester)
+[3.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/joy_tester/share/joy_tester/package.ps1'
+[3.082s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mpinho/proj_ws/src/install/joy_tester/share/joy_tester/package.dsv'
+[3.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/joy_tester/share/joy_tester/package.sh'
+[3.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/joy_tester/share/joy_tester/package.bash'
+[3.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/joy_tester/share/joy_tester/package.zsh'
+[3.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mpinho/proj_ws/src/install/joy_tester/share/colcon-core/packages/joy_tester)
+[3.113s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msc_aut_vehicles)
+[3.114s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/msc_aut_vehicles' for CMake module files
+[3.115s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/msc_aut_vehicles' for CMake config files
+[3.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('msc_aut_vehicles', 'cmake_prefix_path')
+[3.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/hook/cmake_prefix_path.ps1'
+[3.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/hook/cmake_prefix_path.dsv'
+[3.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/hook/cmake_prefix_path.sh'
+[3.121s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/lib'
+[3.121s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/bin'
+[3.122s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/lib/pkgconfig/msc_aut_vehicles.pc'
+[3.122s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/lib/python3.10/site-packages'
+[3.122s] Level 1:colcon.colcon_core.environment:checking '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/bin'
+[3.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/package.ps1'
+[3.124s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/package.dsv'
+[3.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/package.sh'
+[3.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/package.bash'
+[3.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/msc_aut_vehicles/package.zsh'
+[3.128s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mpinho/proj_ws/src/install/msc_aut_vehicles/share/colcon-core/packages/msc_aut_vehicles)
+[3.129s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.130s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.141s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.165s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.166s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mpinho/proj_ws/src/install/local_setup.ps1'
+[3.168s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mpinho/proj_ws/src/install/_local_setup_util_ps1.py'
+[3.171s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mpinho/proj_ws/src/install/setup.ps1'
+[3.173s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mpinho/proj_ws/src/install/local_setup.sh'
+[3.175s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mpinho/proj_ws/src/install/_local_setup_util_sh.py'
+[3.176s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mpinho/proj_ws/src/install/setup.sh'
+[3.179s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mpinho/proj_ws/src/install/local_setup.bash'
+[3.182s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mpinho/proj_ws/src/install/setup.bash'
+[3.185s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mpinho/proj_ws/src/install/local_setup.zsh'
+[3.186s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mpinho/proj_ws/src/install/setup.zsh'

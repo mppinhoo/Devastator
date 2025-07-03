@@ -1,0 +1,35 @@
+[0.032s] Invoking command in '/home/mpinho/proj_ws/src/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial:/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble LD_LIBRARY_PATH=/home/mpinho/proj_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/diffdrive_arduino -- -j8 -l8
+[0.163s] [ 57%] Built target fake_robot
+[0.165s] [100%] Built target diffdrive_arduino
+[0.191s] Invoked command in '/home/mpinho/proj_ws/src/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial:/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble LD_LIBRARY_PATH=/home/mpinho/proj_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/diffdrive_arduino -- -j8 -l8
+[0.280s] Invoking command in '/home/mpinho/proj_ws/src/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial:/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble LD_LIBRARY_PATH=/home/mpinho/proj_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/diffdrive_arduino
+[0.293s] -- Install configuration: ""
+[0.294s] -- Execute custom install script
+[0.295s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml
+[0.295s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml
+[0.296s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[0.296s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/lib/libfake_robot.so
+[0.297s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[0.297s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[0.298s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[0.298s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[0.299s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[0.299s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[0.300s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[0.300s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[0.300s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[0.301s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[0.301s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[0.301s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[0.301s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[0.302s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[0.302s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[0.302s] -- Symlinking: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[0.321s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[0.322s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[0.322s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[0.323s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.323s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[0.323s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[0.323s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[0.328s] Invoked command in '/home/mpinho/proj_ws/src/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial:/home/mpinho/proj_ws/install/urg_node2:/home/mpinho/proj_ws/install/diffdrive_arduino:/home/mpinho/proj_ws/install/serial:/home/mpinho/proj_ws/install/msc_aut_vehicles:/opt/ros/humble LD_LIBRARY_PATH=/home/mpinho/proj_ws/src/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/diffdrive_arduino

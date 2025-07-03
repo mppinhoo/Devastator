@@ -1,0 +1,17 @@
+[1.363s] Invoking command in '/home/mpinho/proj_ws/src/build/joy_tester': PYTHONPATH=/home/mpinho/proj_ws/src/build/joy_tester/prefix_override:/home/mpinho/proj_ws/src/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mpinho/proj_ws/src/build/joy_tester/build --no-deps symlink_data
+[1.857s] running develop
+[2.233s] running egg_info
+[2.233s] writing joy_tester.egg-info/PKG-INFO
+[2.234s] writing dependency_links to joy_tester.egg-info/dependency_links.txt
+[2.234s] writing entry points to joy_tester.egg-info/entry_points.txt
+[2.234s] writing requirements to joy_tester.egg-info/requires.txt
+[2.234s] writing top-level names to joy_tester.egg-info/top_level.txt
+[2.239s] reading manifest file 'joy_tester.egg-info/SOURCES.txt'
+[2.242s] writing manifest file 'joy_tester.egg-info/SOURCES.txt'
+[2.246s] running build_ext
+[2.247s] Creating /home/mpinho/proj_ws/src/install/joy_tester/lib/python3.10/site-packages/joy-tester.egg-link (link to .)
+[2.248s] Installing test_joy script to /home/mpinho/proj_ws/src/install/joy_tester/lib/joy_tester
+[2.249s] 
+[2.249s] Installed /home/mpinho/proj_ws/src/build/joy_tester
+[2.249s] running symlink_data
+[2.353s] Invoked command in '/home/mpinho/proj_ws/src/build/joy_tester' returned '0': PYTHONPATH=/home/mpinho/proj_ws/src/build/joy_tester/prefix_override:/home/mpinho/proj_ws/src/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mpinho/proj_ws/src/build/joy_tester/build --no-deps symlink_data

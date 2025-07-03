@@ -1,0 +1,108 @@
+[0.025s] Invoking command in '/home/mpinho/proj_ws/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/mpinho/proj_ws/src/urg_node2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mpinho/proj_ws/install/urg_node2
+[0.130s] -- The C compiler identification is GNU 11.4.0
+[0.228s] -- The CXX compiler identification is GNU 11.4.0
+[0.240s] -- Detecting C compiler ABI info
+[0.344s] -- Detecting C compiler ABI info - done
+[0.356s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.356s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.361s] -- Detecting CXX compiler ABI info
+[0.481s] -- Detecting CXX compiler ABI info - done
+[0.493s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.493s] -- Detecting CXX compile features
+[0.494s] -- Detecting CXX compile features - done
+[0.497s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.736s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.826s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.870s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.937s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.944s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.958s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.008s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.121s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.125s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.304s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.355s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.457s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.476s] -- Looking for pthread.h
+[1.647s] -- Looking for pthread.h - found
+[1.649s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.828s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.830s] -- Found Threads: TRUE  
+[2.117s] -- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.236s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.312s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.524s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[2.639s] -- Found laser_proc: 1.0.2 (/opt/ros/humble/share/laser_proc/cmake)
+[2.676s] -- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.680s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.825s] -- Configuring done
+[2.876s] -- Generating done
+[2.880s] -- Build files have been written to: /home/mpinho/proj_ws/build/urg_node2
+[2.901s] Invoked command in '/home/mpinho/proj_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/mpinho/proj_ws/src/urg_node2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mpinho/proj_ws/install/urg_node2
+[2.905s] Invoking command in '/home/mpinho/proj_ws/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/build/urg_node2 -- -j8 -l8
+[2.993s] [  5%] [32mBuilding CXX object CMakeFiles/urg_node2_node.dir/rclcpp_components/node_main_urg_node2_node.cpp.o[0m
+[2.995s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.996s] [ 15%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o[0m
+[3.004s] [ 20%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o[0m
+[3.008s] [ 25%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o[0m
+[3.012s] [ 30%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o[0m
+[3.013s] [ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.017s] [ 40%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o[0m
+[3.066s] [01m[K/home/mpinho/proj_ws/src/urg_node2/urg_library/current/src/urg_utils.c:[m[K In function ‘[01m[Kurg_delay[m[K’:
+[3.066s] [01m[K/home/mpinho/proj_ws/src/urg_node2/urg_library/current/src/urg_utils.c:224:5:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kusleep[m[K’; did you mean ‘[01m[Kurg_sleep[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+[3.066s]   224 |     [01;35m[Kusleep[m[K(1000 * delay_msec);
+[3.066s]       |     [01;35m[K^~~~~~[m[K
+[3.066s]       |     [32m[Kurg_sleep[m[K
+[3.078s] [ 45%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o[0m
+[3.095s] [01m[K/home/mpinho/proj_ws/src/urg_node2/urg_library/current/src/urg_sensor.c:1349:8:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[3.095s]  1349 | static [01;35m[Kconst[m[K int receive_II_command_response(urg_t *urg,
+[3.095s]       |        [01;35m[K^~~~~[m[K
+[3.099s] [ 50%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o[0m
+[3.119s] [ 55%] [32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o[0m
+[3.280s] [ 60%] [32m[1mLinking C shared library liburg_c.so[0m
+[3.363s] [ 60%] Built target urg_c
+[3.395s] [ 65%] [32mBuilding CXX object CMakeFiles/urg_node2.dir/src/urg_node2.cpp.o[0m
+[3.929s] [ 70%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.986s] [ 70%] Built target gtest_main
+[7.191s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.294s] [ 75%] Built target gtest
+[7.329s] [ 85%] [32mBuilding CXX object CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o[0m
+[7.330s] [ 85%] [32mBuilding CXX object CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o[0m
+[7.786s] [ 90%] [32m[1mLinking CXX executable urg_node2_node[0m
+[8.091s] [ 90%] Built target urg_node2_node
+[13.090s] [ 95%] [32m[1mLinking CXX shared library liburg_node2.so[0m
+[14.000s] [ 95%] Built target urg_node2
+[24.553s] [100%] [32m[1mLinking CXX executable urg_node2_test[0m
+[26.433s] [100%] Built target urg_node2_test
+[26.450s] Invoked command in '/home/mpinho/proj_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/build/urg_node2 -- -j8 -l8
+[26.536s] Invoking command in '/home/mpinho/proj_ws/build/urg_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/build/urg_node2
+[26.545s] -- Install configuration: ""
+[26.545s] -- Execute custom install script
+[26.546s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/lib/urg_node2/urg_node2_node
+[26.560s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/lib/liburg_node2.so
+[26.572s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/lib/liburg_c.so
+[26.587s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/launch/urg_node2.launch.py
+[26.600s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/launch/urg_node2_2lidar.launch.py
+[26.613s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/launch/urg_node2_component.launch.py
+[26.627s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/config/params_ether.yaml
+[26.640s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/config/params_ether_2nd.yaml
+[26.652s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/config/params_serial.yaml
+[26.666s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/ament_index/resource_index/package_run_dependencies/urg_node2
+[26.679s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/ament_index/resource_index/parent_prefix_path/urg_node2
+[26.692s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/environment/ament_prefix_path.sh
+[26.705s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/environment/ament_prefix_path.dsv
+[26.718s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/environment/path.sh
+[26.733s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/environment/path.dsv
+[26.746s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/local_setup.bash
+[26.760s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/local_setup.sh
+[26.773s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/local_setup.zsh
+[26.787s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/local_setup.dsv
+[26.802s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/package.dsv
+[26.815s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/ament_index/resource_index/packages/urg_node2
+[26.828s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/ament_index/resource_index/rclcpp_components/urg_node2
+[26.842s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/cmake/urg_node2Config.cmake
+[26.855s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/cmake/urg_node2Config-version.cmake
+[26.868s] -- Symlinking: /home/mpinho/proj_ws/install/urg_node2/share/urg_node2/package.xml
+[26.886s] Invoked command in '/home/mpinho/proj_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpinho/proj_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/build/urg_node2

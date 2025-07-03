@@ -1,0 +1,20 @@
+[1.650s] Invoking command in '/home/mpinho/proj_ws/src/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mpinho/proj_ws/src/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mpinho/proj_ws/src/build/serial_motor_demo/prefix_override:/home/mpinho/proj_ws/src/install/serial_motor_demo/lib/python3.10/site-packages:/home/mpinho/proj_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mpinho/proj_ws/src/build/serial_motor_demo/build --no-deps symlink_data
+[2.027s] /home/mpinho/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.027s]   warnings.warn(
+[2.113s] running develop
+[2.402s] running egg_info
+[2.403s] writing serial_motor_demo.egg-info/PKG-INFO
+[2.403s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[2.404s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[2.404s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[2.404s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[2.406s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[2.407s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[2.410s] running build_ext
+[2.410s] Creating /home/mpinho/proj_ws/src/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
+[2.411s] Installing driver script to /home/mpinho/proj_ws/src/install/serial_motor_demo/lib/serial_motor_demo
+[2.411s] Installing gui script to /home/mpinho/proj_ws/src/install/serial_motor_demo/lib/serial_motor_demo
+[2.412s] 
+[2.412s] Installed /home/mpinho/proj_ws/src/build/serial_motor_demo
+[2.412s] running symlink_data
+[2.494s] Invoked command in '/home/mpinho/proj_ws/src/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpinho/proj_ws/src/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mpinho/proj_ws/src/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mpinho/proj_ws/src/build/serial_motor_demo/prefix_override:/home/mpinho/proj_ws/src/install/serial_motor_demo/lib/python3.10/site-packages:/home/mpinho/proj_ws/src/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mpinho/proj_ws/src/build/serial_motor_demo/build --no-deps symlink_data

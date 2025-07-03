@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="robot">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0315573731755338 7.76355970159828E-05 0.0404055528662249"
+        rpy="0 0 0" />
+      <mass
+        value="0.599964847357846" />
+      <inertia
+        ixx="0.000506930538551936"
+        ixy="-3.7128991588975E-06"
+        ixz="4.02160908286649E-05"
+        iyy="0.000812863507493895"
+        iyz="4.00304428240649E-07"
+        izz="0.000953205803645533" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://msc_aut_vehicles/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.36078431372549 0.36078431372549 0.36078431372549 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://msc_aut_vehicles/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="left_wheel">
+    <inertial>
+      <origin
+        xyz="2.58230936633908E-14 5.85946105203829E-05 -0.00232921026847478"
+        rpy="0 0 0" />
+      <mass
+        value="0.010506515466465" />
+      <inertia
+        ixx="9.00531691967923E-07"
+        ixy="1.50971292288122E-18"
+        ixz="1.26397797741563E-20"
+        iyy="8.98939837075492E-07"
+        iyz="-1.2808458696259E-14"
+        izz="1.39292618130053E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://msc_aut_vehicles/meshes/left_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.627450980392157 0.549019607843137 0.466666666666667 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://msc_aut_vehicles/meshes/left_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="-0.0061464 0.096745 0.032757"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="left_wheel" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      effort="10"
+      velocity="10" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="right_wheel">
+    <inertial>
+      <origin
+        xyz="2.58751353676701E-14 5.85946105203829E-05 0.0123572102397252"
+        rpy="0 0 0" />
+      <mass
+        value="0.010506515466465" />
+      <inertia
+        ixx="9.00531691967923E-07"
+        ixy="1.50972863101844E-18"
+        ixz="1.771839478425E-20"
+        iyy="8.98939837075493E-07"
+        iyz="-1.2808458722522E-14"
+        izz="1.39292618130053E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://msc_aut_vehicles/meshes/right_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.627450980392157 0.549019607843137 0.466666666666667 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://msc_aut_vehicles/meshes/right_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="-0.0061464 -0.10541 0.032757"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="right_wheel" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      effort="10"
+      velocity="10" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+</robot>

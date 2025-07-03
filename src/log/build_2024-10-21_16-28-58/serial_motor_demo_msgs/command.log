@@ -1,0 +1,4 @@
+Invoking command in '/home/mpinho/proj_ws/src/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/serial_motor_demo_msgs -- -j8 -l8
+Invoked command in '/home/mpinho/proj_ws/src/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/serial_motor_demo_msgs -- -j8 -l8
+Invoking command in '/home/mpinho/proj_ws/src/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/serial_motor_demo_msgs
+Invoked command in '/home/mpinho/proj_ws/src/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/serial_motor_demo_msgs

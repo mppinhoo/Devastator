@@ -1,0 +1,44 @@
+[0.031s] Invoking command in '/home/mpinho/proj_ws/build/msc_aut_vehicles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/build/msc_aut_vehicles -- -j8 -l8
+[0.108s] Built target ament_cmake_python_symlink_msc_aut_vehicles
+[0.274s] Traceback (most recent call last):
+[0.274s]   File "/home/mpinho/proj_ws/build/msc_aut_vehicles/ament_cmake_python/msc_aut_vehicles/setup.py", line 1, in <module>
+[0.274s]     from setuptools import find_packages
+[0.275s]   File "/home/mpinho/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+[0.288s]     import setuptools.version
+[0.289s]   File "/home/mpinho/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+[0.289s]     import pkg_resources
+[0.289s]   File "/home/mpinho/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 76, in <module>
+[0.292s]     __import__('pkg_resources.extern.packaging.version')
+[0.292s]   File "/home/mpinho/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/version.py", line 267, in <module>
+[0.292s]     class Version(_BaseVersion):
+[0.292s]   File "/home/mpinho/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/version.py", line 269, in Version
+[0.292s]     _regex = re.compile(r"^\s*" + VERSION_PATTERN + r"\s*$", re.VERBOSE | re.IGNORECASE)
+[0.292s]   File "/usr/lib/python3.10/re.py", line 251, in compile
+[0.293s]     return _compile(pattern, flags)
+[0.293s]   File "/usr/lib/python3.10/re.py", line 303, in _compile
+[0.293s]     p = sre_compile.compile(pattern, flags)
+[0.293s]   File "/usr/lib/python3.10/sre_compile.py", line 788, in compile
+[0.293s]     p = sre_parse.parse(p, flags)
+[0.293s]   File "/usr/lib/python3.10/sre_parse.py", line 955, in parse
+[0.294s]     p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+[0.295s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[0.295s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[0.296s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[0.296s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[0.296s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[0.296s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[0.296s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[0.296s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[0.296s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[0.296s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[0.297s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[0.297s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[0.297s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[0.297s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[0.297s]   File "/usr/lib/python3.10/sre_parse.py", line 516, in _parse
+[0.297s]     if this in WHITESPACE:
+[0.297s] KeyboardInterrupt
+[0.327s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_msc_aut_vehicles_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_msc_aut_vehicles_egg] Interrupt
+[0.327s] gmake[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/ament_cmake_python_build_msc_aut_vehicles_egg.dir/all] Interrupt
+[0.328s] gmake: *** [Makefile:146: all] Interrupt
+[0.331s] Invoked command in '/home/mpinho/proj_ws/build/msc_aut_vehicles' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/build/msc_aut_vehicles -- -j8 -l8

@@ -1,0 +1,53 @@
+[0.061s] Invoking command in '/home/mpinho/proj_ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/serial -- -j8 -l8
+[0.233s] [ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.233s] [ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.235s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.255s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.255s] [ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.628s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[1.718s] [ 42%] Built target serial
+[1.781s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[2.494s] [ 57%] [32m[1mLinking CXX executable serial_example[0m
+[2.725s] [ 64%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.788s] [ 64%] Built target serial_example
+[2.813s] [ 64%] Built target gtest_main
+[11.888s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[12.033s] [ 71%] Built target gtest
+[12.096s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[12.101s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[14.335s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[14.335s]                  from [01m[K/home/mpinho/proj_ws/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[14.335s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[14.335s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[14.336s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.372s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[14.800s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[14.816s] [100%] Built target serial-test-timer
+[15.262s] [100%] Built target serial-test
+[15.289s] Invoked command in '/home/mpinho/proj_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mpinho/proj_ws/src/build/serial -- -j8 -l8
+[15.392s] Invoking command in '/home/mpinho/proj_ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/serial
+[15.405s] -- Install configuration: ""
+[15.408s] -- Execute custom install script
+[15.410s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/lib/libserial.a
+[15.411s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/include/serial/serial.h
+[15.411s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/include/serial/v8stdint.h
+[15.411s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/library_path.sh
+[15.412s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/library_path.dsv
+[15.412s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[15.413s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[15.413s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/ament_prefix_path.sh
+[15.413s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/ament_prefix_path.dsv
+[15.414s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/path.sh
+[15.414s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/environment/path.dsv
+[15.415s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/local_setup.bash
+[15.415s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/local_setup.sh
+[15.415s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/local_setup.zsh
+[15.416s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/local_setup.dsv
+[15.416s] -- Symlinking: /home/mpinho/proj_ws/src/install/serial/share/serial/package.dsv
+[15.439s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/ament_index/resource_index/packages/serial
+[15.441s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.442s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[15.442s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/cmake/serialConfig.cmake
+[15.442s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/cmake/serialConfig-version.cmake
+[15.442s] -- Up-to-date symlink: /home/mpinho/proj_ws/src/install/serial/share/serial/package.xml
+[15.452s] Invoked command in '/home/mpinho/proj_ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mpinho/proj_ws/src/build/serial
