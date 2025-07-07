@@ -10,6 +10,7 @@ This repository includes a pre-configured Dockerfile to build and run the Devast
 
 ### 1. Clone the Repository:
 
+```bash
 git clone https://github.com/mppinhoo/Devastator.git
 cd Devastator
 
