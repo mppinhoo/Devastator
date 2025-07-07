@@ -13,11 +13,12 @@ This repository includes a pre-configured Dockerfile to build and run the Devast
 ```bash
 git clone https://github.com/mppinhoo/Devastator.git
 cd Devastator
+```
 
 ### 2. Build the Docker Image and run the Docker Container:
 
+``` bash
 docker build -t devastator_ws -f Dockerfile .
-
 docker run -it \
   --network=host \
   --ipc=host \
@@ -29,5 +30,5 @@ docker run -it \
   --device=/dev/ttyUSB0 \
   --device=/dev/ttyACM0 \
   devastator_ws
-
+```
 
