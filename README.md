@@ -32,3 +32,11 @@ docker run -it \
   devastator_ws
 ```
 
+### 3. Run the main launch file:
+
+``` bash
+ros2 launch msc_aut_vehicles launch_robot.launch.py
+```
+
+
+
